@@ -6,4 +6,6 @@ This project is just a rework to try and get the ST.com examples working with Ec
 
 I'm using the [Sourcery CodeBench Lite](http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/) toolchain from
 Mentor Graphics, compiled using the [arm-cs-tools-build.sh](http://gnuarmeclipse.svn.sourceforge.net/viewvc/gnuarmeclipse/trunk/scripts/arm-cs-tools-build.sh?content-type=text%2Fplain) script
-from the GNU ARM Eclipse project.
+from the GNU ARM Eclipse project, on a Mac with OS X 10.8, Mountain Lion.
+
+
