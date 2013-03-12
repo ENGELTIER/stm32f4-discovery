@@ -25,9 +25,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>library_src</name>
+			<name>stm_src</name>
 			<type>2</type>
-			<locationURI>LIB_SRC</locationURI>
+			<locationURI>$%7BLIB_SRC%7D</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>
