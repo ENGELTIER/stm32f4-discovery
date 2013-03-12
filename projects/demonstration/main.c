@@ -156,6 +156,8 @@ int main(void)
   {    
     Demo_Exec();
   }
+
+  return 0;
 }
 
 /**

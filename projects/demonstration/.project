@@ -25,15 +25,34 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>stm_src</name>
+			<name>cmsis_stm32f4xx</name>
 			<type>2</type>
-			<locationURI>$%7BLIB_SRC%7D</locationURI>
+			<locationURI>$%7BLIBRARIES%7D/cmsis/stm32f4xx/src</locationURI>
+		</link>
+		<link>
+			<name>stm32_usb_otg_driver</name>
+			<type>2</type>
+			<locationURI>$%7BLIBRARIES%7D/stm32_usb_otg_driver/src</locationURI>
+		</link>
+		<link>
+			<name>stm32f4_discovery</name>
+			<type>2</type>
+			<locationURI>$%7BUTILITIES%7D/stm32f4_discovery</locationURI>
+		</link>
+		<link>
+			<name>stm32f4xx_stdperiph_driver</name>
+			<type>2</type>
+			<locationURI>$%7BLIBRARIES%7D/stm32f4xx_stdperiph_driver/src</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>
 		<variable>
-			<name>LIB_SRC</name>
-			<value>$%7BPARENT-2-PROJECT_LOC%7D/libraries/cmsis/st/stm32f4xx/src</value>
+			<name>LIBRARIES</name>
+			<value>$%7BPARENT-2-PROJECT_LOC%7D/libraries</value>
+		</variable>
+		<variable>
+			<name>UTILITIES</name>
+			<value>$%7BPARENT-2-PROJECT_LOC%7D/utilities</value>
 		</variable>
 	</variableList>
 </projectDescription>
