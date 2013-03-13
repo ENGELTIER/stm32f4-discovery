@@ -30,6 +30,11 @@
 			<locationURI>$%7BLIBRARIES%7D/cmsis/stm32f4xx/src</locationURI>
 		</link>
 		<link>
+			<name>stm32_usb_device_library</name>
+			<type>2</type>
+			<locationURI>$%7BLIBRARIES%7D/stm32_usb_device_library/core/src</locationURI>
+		</link>
+		<link>
 			<name>stm32_usb_otg_driver</name>
 			<type>2</type>
 			<locationURI>$%7BLIBRARIES%7D/stm32_usb_otg_driver/src</locationURI>
