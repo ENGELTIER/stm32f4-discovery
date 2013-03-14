@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>stm32f4-demonstration</name>
+	<name>stm32f4-discovery</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -25,9 +25,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>cmsis_stm32f4xx</name>
+			<name>stm32_hid_class</name>
 			<type>2</type>
-			<locationURI>$%7BLIBRARIES%7D/cmsis/stm32f4xx/src</locationURI>
+			<locationURI>$%7BLIBRARIES%7D/stm32_usb_device_library/class/hid/src</locationURI>
 		</link>
 		<link>
 			<name>stm32_usb_device_library</name>
@@ -43,6 +43,11 @@
 			<name>stm32f4_discovery</name>
 			<type>2</type>
 			<locationURI>$%7BUTILITIES%7D/stm32f4_discovery</locationURI>
+		</link>
+		<link>
+			<name>stm32f4xx</name>
+			<type>2</type>
+			<locationURI>$%7BLIBRARIES%7D/cmsis/stm32f4xx/src</locationURI>
 		</link>
 		<link>
 			<name>stm32f4xx_stdperiph_driver</name>
